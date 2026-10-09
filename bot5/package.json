@@ -18,6 +18,7 @@
     "@modelcontextprotocol/sdk": "^1.30.0",
     "@snowluma/mcp": "^1.14.10",
     "@snowluma/sdk": "^1.14.0",
+    "qqbot-fleet": "file:..",
     "zod": "^4.4.3"
   }
 }

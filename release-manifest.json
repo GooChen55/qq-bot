@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-09T06:44:47.707Z",
+  "createdAt": "2026-10-09T06:48:58.478Z",
   "sourceOnly": true,
   "privacyChecks": {
     "knownPrivateValues": "passed",
@@ -10,7 +10,7 @@
   "files": [
     {
       "file": ".dockerignore",
-      "sha256": "1d7ee9f4dfc5bdafae39549396f8bce6487c2dec201cfb2b69495c3473582ba6"
+      "sha256": "9d7f83b6515a1f11975206612a88e9537aed2552b640721ece310eff432c76d4"
     },
     {
       "file": ".github/workflows/deployment.yml",
@@ -18,7 +18,7 @@
     },
     {
       "file": ".gitignore",
-      "sha256": "37e2ccfa277bb7670b69feac6c01f66b579b8ebd55d5b7f76068ae7ff78a438a"
+      "sha256": "2256706e763debeb837da8cd775d4c54e9515df257e00563526a1108ff3d00c9"
     },
     {
       "file": "PUBLIC-README.md",
@@ -33,12 +33,16 @@
       "sha256": "b3b24e457240adf56f7f39dd76f34a7f888ed46fcd1f3b136d7b90ad0286bf28"
     },
     {
+      "file": "bot3/.npmrc",
+      "sha256": "2d2a164460fb5bcd1d8e4b4bab8dfd4b05680863a3f3af56aa4b2b016ef843cc"
+    },
+    {
       "file": "bot3/package-lock.json",
-      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
     },
     {
       "file": "bot3/package.json",
-      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
     },
     {
       "file": "bot3/public/console.html",
@@ -126,11 +130,15 @@
     },
     {
       "file": "bot4/package-lock.json",
-      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
+    },
+    {
+      "file": "bot4/.npmrc",
+      "sha256": "2d2a164460fb5bcd1d8e4b4bab8dfd4b05680863a3f3af56aa4b2b016ef843cc"
     },
     {
       "file": "bot4/package.json",
-      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
     },
     {
       "file": "bot4/public/console.html",
@@ -218,11 +226,15 @@
     },
     {
       "file": "bot5/package-lock.json",
-      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
+    },
+    {
+      "file": "bot5/.npmrc",
+      "sha256": "2d2a164460fb5bcd1d8e4b4bab8dfd4b05680863a3f3af56aa4b2b016ef843cc"
     },
     {
       "file": "bot5/package.json",
-      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
     },
     {
       "file": "bot5/public/console.html",
@@ -310,11 +322,15 @@
     },
     {
       "file": "bot6/package-lock.json",
-      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+      "sha256": "c2aff02b65798ad17eb18b1e4aabd6b59e434843bf3db649326d59bf709c3dbf"
+    },
+    {
+      "file": "bot6/.npmrc",
+      "sha256": "a093bb2fed59d699b7f9a62a5203cc196054c624e9c39c6d908c9e7db5dd2464"
     },
     {
       "file": "bot6/package.json",
-      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
     },
     {
       "file": "bot6/public/console.html",
@@ -446,7 +462,7 @@
     },
     {
       "file": "deployment/CHANGES.md",
-      "sha256": "70bfd0ef56927e7d9f89691d1434cb1a27304da6af21beb759e2d6682d756dd9"
+      "sha256": "3582bba9cedd50608c3c0de91c6a14a57be862a2624f16a5d9f7325cfb7cd5ab"
     },
     {
       "file": "deployment/FIRST-RUN.md",
@@ -518,7 +534,7 @@
     },
     {
       "file": "deployment/public-files.json",
-      "sha256": "755ebc67601214e5e07e9f0d922c89df6b95c965c8915a531e79bfddb3b401a9"
+      "sha256": "83f5155431a1e38cec50b6f06475a4a0df15e41bfd10a85541938fdff9c47bec"
     },
     {
       "file": "deployment/runtime.mjs",
@@ -550,7 +566,7 @@
     },
     {
       "file": "deployment/test-privacy.mjs",
-      "sha256": "f95435db06ad8b761141f92e8bbad5ccd7763cf64b7ada3057fd4a185fbfd623"
+      "sha256": "80b7f6cb3f19d10d47a7023b2d95bdb4672c7449b1461648ed4f24015499c6dc"
     },
     {
       "file": "deployment/test-runtime.mjs",

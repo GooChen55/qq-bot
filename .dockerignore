@@ -218,3 +218,7 @@ deployment/templates/**
 !shared/voice_vtt_prepare.py
 !shared/wake-access.mjs
 !tools/cover-separation-requirements.txt
+!bot3/.npmrc
+!bot4/.npmrc
+!bot5/.npmrc
+!bot6/.npmrc

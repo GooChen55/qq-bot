@@ -239,6 +239,10 @@
 *.mp3
 *.mp4
 *.sqlite*
+!/bot3/.npmrc
+!/bot4/.npmrc
+!/bot5/.npmrc
+!/bot6/.npmrc
 
 # README is generated from the reviewed public document in this release only.
 !/README.md
