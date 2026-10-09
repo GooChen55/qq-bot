@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-09T06:48:58.478Z",
+  "createdAt": "2026-10-09T06:50:46.937Z",
   "sourceOnly": true,
   "privacyChecks": {
     "knownPrivateValues": "passed",
@@ -38,11 +38,11 @@
     },
     {
       "file": "bot3/package-lock.json",
-      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
+      "sha256": "03af275db0037fb4b66c9159a26c9728db8c44fcd51c12850c4ff2116ebe2200"
     },
     {
       "file": "bot3/package.json",
-      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
     },
     {
       "file": "bot3/public/console.html",
@@ -130,7 +130,7 @@
     },
     {
       "file": "bot4/package-lock.json",
-      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
+      "sha256": "03af275db0037fb4b66c9159a26c9728db8c44fcd51c12850c4ff2116ebe2200"
     },
     {
       "file": "bot4/.npmrc",
@@ -138,7 +138,7 @@
     },
     {
       "file": "bot4/package.json",
-      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
     },
     {
       "file": "bot4/public/console.html",
@@ -226,7 +226,7 @@
     },
     {
       "file": "bot5/package-lock.json",
-      "sha256": "3c08c46f8a01773161d07daadc0b933b7dc8363051801eaf2e5a05cd60b035c6"
+      "sha256": "03af275db0037fb4b66c9159a26c9728db8c44fcd51c12850c4ff2116ebe2200"
     },
     {
       "file": "bot5/.npmrc",
@@ -234,7 +234,7 @@
     },
     {
       "file": "bot5/package.json",
-      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
     },
     {
       "file": "bot5/public/console.html",
@@ -322,7 +322,7 @@
     },
     {
       "file": "bot6/package-lock.json",
-      "sha256": "c2aff02b65798ad17eb18b1e4aabd6b59e434843bf3db649326d59bf709c3dbf"
+      "sha256": "df6f19a1eca3309bcf209aad2fe0813e96a9c87035b3542239c2ad259ebb44e2"
     },
     {
       "file": "bot6/.npmrc",
@@ -330,7 +330,7 @@
     },
     {
       "file": "bot6/package.json",
-      "sha256": "9ff7b82d11af30e942c461b3c3432ac2d6020a0238b38d9487048b93d73a6153"
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
     },
     {
       "file": "bot6/public/console.html",
@@ -566,7 +566,7 @@
     },
     {
       "file": "deployment/test-privacy.mjs",
-      "sha256": "80b7f6cb3f19d10d47a7023b2d95bdb4672c7449b1461648ed4f24015499c6dc"
+      "sha256": "64366e8c6afe89637f53db56d0d7f6eb5fd58b3388e2369f240b1955fdfe88e0"
     },
     {
       "file": "deployment/test-runtime.mjs",
