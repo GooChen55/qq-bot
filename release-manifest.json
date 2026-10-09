@@ -1,0 +1,680 @@
+{
+  "createdAt": "2026-10-09T06:44:47.707Z",
+  "sourceOnly": true,
+  "privacyChecks": {
+    "knownPrivateValues": "passed",
+    "hardcodedAccountAndVoiceIds": "passed",
+    "runtimeData": "excluded",
+    "freshAccountPersonaVoiceSetup": "required"
+  },
+  "files": [
+    {
+      "file": ".dockerignore",
+      "sha256": "1d7ee9f4dfc5bdafae39549396f8bce6487c2dec201cfb2b69495c3473582ba6"
+    },
+    {
+      "file": ".github/workflows/deployment.yml",
+      "sha256": "c44c132a89ed8b520f72d35f42ffad90a4c5d1f83672a3b4d1ca8b6c69b1cbc9"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "37e2ccfa277bb7670b69feac6c01f66b579b8ebd55d5b7f76068ae7ff78a438a"
+    },
+    {
+      "file": "PUBLIC-README.md",
+      "sha256": "32f2d890539a9917c2b0de3982c3e4ab40b395fd0e5b99538624c9c1de318388"
+    },
+    {
+      "file": "SECURITY.md",
+      "sha256": "d4aa76e904476f78aadb9f3c4907e08f11b4df2396b437ec342f986a2d812e0a"
+    },
+    {
+      "file": "THIRD-PARTY-NOTICES.md",
+      "sha256": "b3b24e457240adf56f7f39dd76f34a7f888ed46fcd1f3b136d7b90ad0286bf28"
+    },
+    {
+      "file": "bot3/package-lock.json",
+      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+    },
+    {
+      "file": "bot3/package.json",
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+    },
+    {
+      "file": "bot3/public/console.html",
+      "sha256": "e1e892f2d7627a8e54d89e56b65042ffeb9a0e194dc7098c940bac562be3491e"
+    },
+    {
+      "file": "bot3/scripts/patch-snowluma-sdk.mjs",
+      "sha256": "71414d5e77c4b13f8d07355f475d63e86b41b9dc4527b4b77712d5170d4d84cf"
+    },
+    {
+      "file": "bot3/src/bridge.js",
+      "sha256": "76000cf95a24dbbd152d320235736f69f1cd805e6243efa8d4f504be2da3009d"
+    },
+    {
+      "file": "bot3/src/debate-agent.js",
+      "sha256": "2e0adb69ca6857b79c1b402b485bad9cf5469d0e8737b0c2a162e4798cb9a9d0"
+    },
+    {
+      "file": "bot3/src/debate-research.js",
+      "sha256": "7cfd6b9d6d92e2106ac908ae3fcc31172b21f81b658e2f5699ab0d113ea370b0"
+    },
+    {
+      "file": "bot3/src/debate-runner.js",
+      "sha256": "92a7d96fbcda74880271755c940594446d21d76cc3b40c0d99c375affa22068f"
+    },
+    {
+      "file": "bot3/src/debate-sender.js",
+      "sha256": "5d2885fe182a2f67c6d44654c659ed9a96922971430e3bf2e310eedc20a40d34"
+    },
+    {
+      "file": "bot3/src/debate-settings.js",
+      "sha256": "5e44ac5da1342e1526e21f20741d7e66a8d4e7d49803169c5d371c7077c70e8f"
+    },
+    {
+      "file": "bot3/src/debate.js",
+      "sha256": "a81e87094c5c4ddb99174af06e1f4be2dcc8b06e26d3574805493d8dacb2c6bd"
+    },
+    {
+      "file": "bot3/src/dsh-client.js",
+      "sha256": "40f72dccd17d9340585c3ad58083569224c898b61bb051dc7fc72196b40b6f3e"
+    },
+    {
+      "file": "bot3/src/forward.js",
+      "sha256": "ee6c140bae1c929108320d1dbd0f8aec6671f6bf65d029707d4a0bfc82740e3d"
+    },
+    {
+      "file": "bot3/src/mcp-host-server.js",
+      "sha256": "ff1daad37c6c92d9bd43403e5e6743337dfac61b25fda556e7773ebeaba647b6"
+    },
+    {
+      "file": "bot3/src/mcp-snowluma-safe.js",
+      "sha256": "04df66211ae36774e2789578856dd531773e4a0d9fe2e381e26041c817b8d92b"
+    },
+    {
+      "file": "bot3/src/mcp-web-search-safe.js",
+      "sha256": "5e6d3dc3930d5d28c7d23b33055954c7b96b76310df7f7f970109fce6676da62"
+    },
+    {
+      "file": "bot3/src/md-to-plain.js",
+      "sha256": "e1795b63be7cf69e7cbc6353929c6570366952c4771511a2ed6a2e9c2275a847"
+    },
+    {
+      "file": "bot3/src/safe-fetch.js",
+      "sha256": "8886e49322f50c605c060d3252aadf3a4b2a066c73c5ec17982508b1cf743513"
+    },
+    {
+      "file": "bot3/src/self-test.js",
+      "sha256": "b911612448e75bef9893f7d7544a5ad39b2fb69fda511ce3e89751f0b39337f2"
+    },
+    {
+      "file": "bot3/src/sensitive.js",
+      "sha256": "2ce13bba82d64779589e175a6a7154ecb1235b064bd21be18906bf63faacf4e7"
+    },
+    {
+      "file": "bot3/src/slang-learner.js",
+      "sha256": "a27500c356640dbf5a1631b494dc6b1c570d88e3991d1dc1716e7370bd8672d9"
+    },
+    {
+      "file": "bot3/src/sticker-lib.js",
+      "sha256": "93dcd36a64737520b60615ab7bc789753805d3f9307af77f95cae561f884c38d"
+    },
+    {
+      "file": "bot3/src/v2-wait.js",
+      "sha256": "a26aa0efefb113b71a2990de7b4011a794f43b91d9f9b62ba9ce5e246fc64628"
+    },
+    {
+      "file": "bot4/package-lock.json",
+      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+    },
+    {
+      "file": "bot4/package.json",
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+    },
+    {
+      "file": "bot4/public/console.html",
+      "sha256": "e1e892f2d7627a8e54d89e56b65042ffeb9a0e194dc7098c940bac562be3491e"
+    },
+    {
+      "file": "bot4/scripts/patch-snowluma-sdk.mjs",
+      "sha256": "71414d5e77c4b13f8d07355f475d63e86b41b9dc4527b4b77712d5170d4d84cf"
+    },
+    {
+      "file": "bot4/src/bridge.js",
+      "sha256": "bac9160cdb15f4ad272d9a23a93fa4299a92a09f4fbe7c122965ceae5bd557dd"
+    },
+    {
+      "file": "bot4/src/debate-agent.js",
+      "sha256": "2e0adb69ca6857b79c1b402b485bad9cf5469d0e8737b0c2a162e4798cb9a9d0"
+    },
+    {
+      "file": "bot4/src/debate-research.js",
+      "sha256": "7cfd6b9d6d92e2106ac908ae3fcc31172b21f81b658e2f5699ab0d113ea370b0"
+    },
+    {
+      "file": "bot4/src/debate-runner.js",
+      "sha256": "92a7d96fbcda74880271755c940594446d21d76cc3b40c0d99c375affa22068f"
+    },
+    {
+      "file": "bot4/src/debate-sender.js",
+      "sha256": "5d2885fe182a2f67c6d44654c659ed9a96922971430e3bf2e310eedc20a40d34"
+    },
+    {
+      "file": "bot4/src/debate-settings.js",
+      "sha256": "5e44ac5da1342e1526e21f20741d7e66a8d4e7d49803169c5d371c7077c70e8f"
+    },
+    {
+      "file": "bot4/src/debate.js",
+      "sha256": "a81e87094c5c4ddb99174af06e1f4be2dcc8b06e26d3574805493d8dacb2c6bd"
+    },
+    {
+      "file": "bot4/src/dsh-client.js",
+      "sha256": "40f72dccd17d9340585c3ad58083569224c898b61bb051dc7fc72196b40b6f3e"
+    },
+    {
+      "file": "bot4/src/forward.js",
+      "sha256": "ee6c140bae1c929108320d1dbd0f8aec6671f6bf65d029707d4a0bfc82740e3d"
+    },
+    {
+      "file": "bot4/src/mcp-host-server.js",
+      "sha256": "ff1daad37c6c92d9bd43403e5e6743337dfac61b25fda556e7773ebeaba647b6"
+    },
+    {
+      "file": "bot4/src/mcp-snowluma-safe.js",
+      "sha256": "04df66211ae36774e2789578856dd531773e4a0d9fe2e381e26041c817b8d92b"
+    },
+    {
+      "file": "bot4/src/mcp-web-search-safe.js",
+      "sha256": "5e6d3dc3930d5d28c7d23b33055954c7b96b76310df7f7f970109fce6676da62"
+    },
+    {
+      "file": "bot4/src/md-to-plain.js",
+      "sha256": "e1795b63be7cf69e7cbc6353929c6570366952c4771511a2ed6a2e9c2275a847"
+    },
+    {
+      "file": "bot4/src/safe-fetch.js",
+      "sha256": "8886e49322f50c605c060d3252aadf3a4b2a066c73c5ec17982508b1cf743513"
+    },
+    {
+      "file": "bot4/src/self-test.js",
+      "sha256": "6a744f607b787727fdbf0c50015c1a3bb3885ef458bddc55b1339b4a80dce25c"
+    },
+    {
+      "file": "bot4/src/sensitive.js",
+      "sha256": "2ce13bba82d64779589e175a6a7154ecb1235b064bd21be18906bf63faacf4e7"
+    },
+    {
+      "file": "bot4/src/slang-learner.js",
+      "sha256": "a27500c356640dbf5a1631b494dc6b1c570d88e3991d1dc1716e7370bd8672d9"
+    },
+    {
+      "file": "bot4/src/sticker-lib.js",
+      "sha256": "93dcd36a64737520b60615ab7bc789753805d3f9307af77f95cae561f884c38d"
+    },
+    {
+      "file": "bot4/src/v2-wait.js",
+      "sha256": "a26aa0efefb113b71a2990de7b4011a794f43b91d9f9b62ba9ce5e246fc64628"
+    },
+    {
+      "file": "bot5/package-lock.json",
+      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+    },
+    {
+      "file": "bot5/package.json",
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+    },
+    {
+      "file": "bot5/public/console.html",
+      "sha256": "e1e892f2d7627a8e54d89e56b65042ffeb9a0e194dc7098c940bac562be3491e"
+    },
+    {
+      "file": "bot5/scripts/patch-snowluma-sdk.mjs",
+      "sha256": "71414d5e77c4b13f8d07355f475d63e86b41b9dc4527b4b77712d5170d4d84cf"
+    },
+    {
+      "file": "bot5/src/bridge.js",
+      "sha256": "3ac46fcbc4c4678cd99579290c0b47743320d2fd0439e0430dde5265690a3f21"
+    },
+    {
+      "file": "bot5/src/debate-agent.js",
+      "sha256": "2e0adb69ca6857b79c1b402b485bad9cf5469d0e8737b0c2a162e4798cb9a9d0"
+    },
+    {
+      "file": "bot5/src/debate-research.js",
+      "sha256": "7cfd6b9d6d92e2106ac908ae3fcc31172b21f81b658e2f5699ab0d113ea370b0"
+    },
+    {
+      "file": "bot5/src/debate-runner.js",
+      "sha256": "92a7d96fbcda74880271755c940594446d21d76cc3b40c0d99c375affa22068f"
+    },
+    {
+      "file": "bot5/src/debate-sender.js",
+      "sha256": "5d2885fe182a2f67c6d44654c659ed9a96922971430e3bf2e310eedc20a40d34"
+    },
+    {
+      "file": "bot5/src/debate-settings.js",
+      "sha256": "5e44ac5da1342e1526e21f20741d7e66a8d4e7d49803169c5d371c7077c70e8f"
+    },
+    {
+      "file": "bot5/src/debate.js",
+      "sha256": "a81e87094c5c4ddb99174af06e1f4be2dcc8b06e26d3574805493d8dacb2c6bd"
+    },
+    {
+      "file": "bot5/src/dsh-client.js",
+      "sha256": "40f72dccd17d9340585c3ad58083569224c898b61bb051dc7fc72196b40b6f3e"
+    },
+    {
+      "file": "bot5/src/forward.js",
+      "sha256": "ee6c140bae1c929108320d1dbd0f8aec6671f6bf65d029707d4a0bfc82740e3d"
+    },
+    {
+      "file": "bot5/src/mcp-host-server.js",
+      "sha256": "ff1daad37c6c92d9bd43403e5e6743337dfac61b25fda556e7773ebeaba647b6"
+    },
+    {
+      "file": "bot5/src/mcp-snowluma-safe.js",
+      "sha256": "04df66211ae36774e2789578856dd531773e4a0d9fe2e381e26041c817b8d92b"
+    },
+    {
+      "file": "bot5/src/mcp-web-search-safe.js",
+      "sha256": "5e6d3dc3930d5d28c7d23b33055954c7b96b76310df7f7f970109fce6676da62"
+    },
+    {
+      "file": "bot5/src/md-to-plain.js",
+      "sha256": "e1795b63be7cf69e7cbc6353929c6570366952c4771511a2ed6a2e9c2275a847"
+    },
+    {
+      "file": "bot5/src/safe-fetch.js",
+      "sha256": "8886e49322f50c605c060d3252aadf3a4b2a066c73c5ec17982508b1cf743513"
+    },
+    {
+      "file": "bot5/src/self-test.js",
+      "sha256": "ca3524994fe50d7e75281315d783e523c4e15194a7867ba97a1d3548f697b8b3"
+    },
+    {
+      "file": "bot5/src/sensitive.js",
+      "sha256": "2ce13bba82d64779589e175a6a7154ecb1235b064bd21be18906bf63faacf4e7"
+    },
+    {
+      "file": "bot5/src/slang-learner.js",
+      "sha256": "a27500c356640dbf5a1631b494dc6b1c570d88e3991d1dc1716e7370bd8672d9"
+    },
+    {
+      "file": "bot5/src/sticker-lib.js",
+      "sha256": "93dcd36a64737520b60615ab7bc789753805d3f9307af77f95cae561f884c38d"
+    },
+    {
+      "file": "bot5/src/v2-wait.js",
+      "sha256": "a26aa0efefb113b71a2990de7b4011a794f43b91d9f9b62ba9ce5e246fc64628"
+    },
+    {
+      "file": "bot6/package-lock.json",
+      "sha256": "70f02940d4b641e8a75a03b6020d26929b481107f2d42122fd3f7fdf26d40df7"
+    },
+    {
+      "file": "bot6/package.json",
+      "sha256": "510a579857e06f5d4f5328a221294754821f3203f2af42e6620639b9ee4b5ac4"
+    },
+    {
+      "file": "bot6/public/console.html",
+      "sha256": "e1e892f2d7627a8e54d89e56b65042ffeb9a0e194dc7098c940bac562be3491e"
+    },
+    {
+      "file": "bot6/scripts/patch-snowluma-sdk.mjs",
+      "sha256": "71414d5e77c4b13f8d07355f475d63e86b41b9dc4527b4b77712d5170d4d84cf"
+    },
+    {
+      "file": "bot6/src/bridge.js",
+      "sha256": "0dc8c655967e5932c9664f90189e427333b942d1d0c47229ca5ed42e0475df85"
+    },
+    {
+      "file": "bot6/src/debate-agent.js",
+      "sha256": "2e0adb69ca6857b79c1b402b485bad9cf5469d0e8737b0c2a162e4798cb9a9d0"
+    },
+    {
+      "file": "bot6/src/debate-research.js",
+      "sha256": "7cfd6b9d6d92e2106ac908ae3fcc31172b21f81b658e2f5699ab0d113ea370b0"
+    },
+    {
+      "file": "bot6/src/debate-runner.js",
+      "sha256": "92a7d96fbcda74880271755c940594446d21d76cc3b40c0d99c375affa22068f"
+    },
+    {
+      "file": "bot6/src/debate-sender.js",
+      "sha256": "5d2885fe182a2f67c6d44654c659ed9a96922971430e3bf2e310eedc20a40d34"
+    },
+    {
+      "file": "bot6/src/debate-settings.js",
+      "sha256": "5e44ac5da1342e1526e21f20741d7e66a8d4e7d49803169c5d371c7077c70e8f"
+    },
+    {
+      "file": "bot6/src/debate.js",
+      "sha256": "a81e87094c5c4ddb99174af06e1f4be2dcc8b06e26d3574805493d8dacb2c6bd"
+    },
+    {
+      "file": "bot6/src/dsh-client.js",
+      "sha256": "40f72dccd17d9340585c3ad58083569224c898b61bb051dc7fc72196b40b6f3e"
+    },
+    {
+      "file": "bot6/src/forward.js",
+      "sha256": "ee6c140bae1c929108320d1dbd0f8aec6671f6bf65d029707d4a0bfc82740e3d"
+    },
+    {
+      "file": "bot6/src/mcp-host-server.js",
+      "sha256": "ff1daad37c6c92d9bd43403e5e6743337dfac61b25fda556e7773ebeaba647b6"
+    },
+    {
+      "file": "bot6/src/mcp-snowluma-safe.js",
+      "sha256": "04df66211ae36774e2789578856dd531773e4a0d9fe2e381e26041c817b8d92b"
+    },
+    {
+      "file": "bot6/src/mcp-web-search-safe.js",
+      "sha256": "5e6d3dc3930d5d28c7d23b33055954c7b96b76310df7f7f970109fce6676da62"
+    },
+    {
+      "file": "bot6/src/md-to-plain.js",
+      "sha256": "e1795b63be7cf69e7cbc6353929c6570366952c4771511a2ed6a2e9c2275a847"
+    },
+    {
+      "file": "bot6/src/safe-fetch.js",
+      "sha256": "8886e49322f50c605c060d3252aadf3a4b2a066c73c5ec17982508b1cf743513"
+    },
+    {
+      "file": "bot6/src/self-test.js",
+      "sha256": "6a744f607b787727fdbf0c50015c1a3bb3885ef458bddc55b1339b4a80dce25c"
+    },
+    {
+      "file": "bot6/src/sensitive.js",
+      "sha256": "2ce13bba82d64779589e175a6a7154ecb1235b064bd21be18906bf63faacf4e7"
+    },
+    {
+      "file": "bot6/src/slang-learner.js",
+      "sha256": "a27500c356640dbf5a1631b494dc6b1c570d88e3991d1dc1716e7370bd8672d9"
+    },
+    {
+      "file": "bot6/src/sticker-lib.js",
+      "sha256": "93dcd36a64737520b60615ab7bc789753805d3f9307af77f95cae561f884c38d"
+    },
+    {
+      "file": "bot6/src/v2-wait.js",
+      "sha256": "a26aa0efefb113b71a2990de7b4011a794f43b91d9f9b62ba9ce5e246fc64628"
+    },
+    {
+      "file": "debate/package.json",
+      "sha256": "0241499f13ea99e0050d35b627dad13e782e5cf2f1eba5a256cea245bfd2e495"
+    },
+    {
+      "file": "debate/src/debate-agent.js",
+      "sha256": "2e0adb69ca6857b79c1b402b485bad9cf5469d0e8737b0c2a162e4798cb9a9d0"
+    },
+    {
+      "file": "debate/src/debate-research.js",
+      "sha256": "fa07f65cd2a145a849f2227ab4552e07e019f97d71901fb9370e55818f710752"
+    },
+    {
+      "file": "debate/src/debate-runner.js",
+      "sha256": "010cda73f48275b3a8f6bbd84b60f6e299bb13cae22b100cb8c71dd7bf1f5de0"
+    },
+    {
+      "file": "debate/src/debate-sender.js",
+      "sha256": "d3087e53c233f53eebcb9bce712688f4567c3639d28af048b60b137a729fca1f"
+    },
+    {
+      "file": "debate/src/debate-settings.js",
+      "sha256": "5e44ac5da1342e1526e21f20741d7e66a8d4e7d49803169c5d371c7077c70e8f"
+    },
+    {
+      "file": "debate/src/debate.js",
+      "sha256": "a81e87094c5c4ddb99174af06e1f4be2dcc8b06e26d3574805493d8dacb2c6bd"
+    },
+    {
+      "file": "debate/src/dsh-client.js",
+      "sha256": "c7f9e3987e415813a0a93d2b0a2e992bb4f702f97104a1f83fa89deadb94fe54"
+    },
+    {
+      "file": "debate/src/hub.js",
+      "sha256": "6b5643491445fba45a652a52c39777102018a09a5071c781af117bea1e3ed45a"
+    },
+    {
+      "file": "debate/src/safe-fetch.js",
+      "sha256": "8886e49322f50c605c060d3252aadf3a4b2a066c73c5ec17982508b1cf743513"
+    },
+    {
+      "file": "deployment/.env.example",
+      "sha256": "62874fadf28cacea462664b305d52f8b04eda2c5926581194ecb341a102e1f0e"
+    },
+    {
+      "file": "deployment/CHANGES.md",
+      "sha256": "70bfd0ef56927e7d9f89691d1434cb1a27304da6af21beb759e2d6682d756dd9"
+    },
+    {
+      "file": "deployment/FIRST-RUN.md",
+      "sha256": "eba1242f512c837b2de5a5df27a9529144dda1b2d4a13c5b0bdf2fe80e267fbb"
+    },
+    {
+      "file": "deployment/README.md",
+      "sha256": "8379359d452dd5c9a62dc29db3456c76806e47223aa0ad7a1cbb46c3f7d0ea31"
+    },
+    {
+      "file": "deployment/check-ai.mjs",
+      "sha256": "de8b741cf1bd7a45e153ef964a6c61b918863dd91584010218f32a763cde2dec"
+    },
+    {
+      "file": "deployment/cli.mjs",
+      "sha256": "6e4beb14b208bbde6961281a65aa06d53c47c2f64178dadb3c048757590756aa"
+    },
+    {
+      "file": "deployment/cloud/Dockerfile",
+      "sha256": "187dac219c31013a05a0de38388ad875cbc8e0a40e140eef0910d7af8d69a08c"
+    },
+    {
+      "file": "deployment/cloud/compose.yml",
+      "sha256": "4c8642fa8c6153008a93aae2733e39b517d65dcfdf299ae9b37babd0496a8b1f"
+    },
+    {
+      "file": "deployment/config.example.json",
+      "sha256": "8d5a5488b7907a758f3da42ee300d4b35302c0377c9a1c4d1545b77bd771303d"
+    },
+    {
+      "file": "deployment/config.mjs",
+      "sha256": "06866be06565a87ed281ec3893a66f743a987a280f9fee5889d6e141bfd8f3bb"
+    },
+    {
+      "file": "deployment/export.mjs",
+      "sha256": "8f15cfb2ed72cfe7f0d9f30e78d4554cbd2d38e82555e301dfee4f56a4d8b22c"
+    },
+    {
+      "file": "deployment/local/start.cmd",
+      "sha256": "cc446c4edeb72415e231dd00b5bef8e5c4b11d5a2ea75a20833cb632d6b18d65"
+    },
+    {
+      "file": "deployment/local/start.ps1",
+      "sha256": "0729586a3c14f28187e04a042ac7f7f91ff5383d1a2ff9d72259df53eb2853fe"
+    },
+    {
+      "file": "deployment/official-adapter.mjs",
+      "sha256": "b61cb5a49d6332720372e610ad137e56669e275c71ec752345acd04692401786"
+    },
+    {
+      "file": "deployment/official-hooks.mjs",
+      "sha256": "bd723774bfae97201c4cfe65df4eb1cc7f5b95db34706f0d1c2820b472f37b53"
+    },
+    {
+      "file": "deployment/panel.html",
+      "sha256": "6b5dfebde2f672156e81a125c4972929d9b4ca8ba32d6fb0f7ae0b46a232fce9"
+    },
+    {
+      "file": "deployment/panel.mjs",
+      "sha256": "50581ef3037446630b6c76fa520e95940435485a5f308a76ccbc37ea0fa0592b"
+    },
+    {
+      "file": "deployment/paths.mjs",
+      "sha256": "0bbfb27ad3ea23667245346c9c0b260d0487bfb4e26171276e28d88458f60f80"
+    },
+    {
+      "file": "deployment/privacy.mjs",
+      "sha256": "78e69ccc08f17013e77ede8ec807bf16f66ce1a828896a174a7426d25f5304ef"
+    },
+    {
+      "file": "deployment/public-files.json",
+      "sha256": "755ebc67601214e5e07e9f0d922c89df6b95c965c8915a531e79bfddb3b401a9"
+    },
+    {
+      "file": "deployment/runtime.mjs",
+      "sha256": "77beda15248b1f2a596de638258585c1830bbdce50c6ddc1286d026f2e4659eb"
+    },
+    {
+      "file": "deployment/setup.mjs",
+      "sha256": "0a03a08d4bc3a4c95a5a338797b7edec87868d5cc7f0920b165af1435c415427"
+    },
+    {
+      "file": "deployment/templates/qq-chat-v2.json",
+      "sha256": "97ae47ed59f2d8fefa6c08a73efc9b66735c77188171d8a54725794cefdbdd80"
+    },
+    {
+      "file": "deployment/templates/qq-chat.json",
+      "sha256": "f4630a0294543292c6b8d9398493b6bae9a9f42d40274b3fe37702e5c3966e4a"
+    },
+    {
+      "file": "deployment/templates/qq-tool-restrict.mjs",
+      "sha256": "0247556cd50759d9cadbd4a6cd6dc8867a98b26582c24577d52ff26794ad3527"
+    },
+    {
+      "file": "deployment/test-official.mjs",
+      "sha256": "89fb284f05dea46dcd60c38e4bc2abf0803b6d8a8abbe71022aa4d5773e3d3ec"
+    },
+    {
+      "file": "deployment/test-panel.mjs",
+      "sha256": "83f83882273d4d71b9a3a10ce3ca2d887f5ad23b4dcc4c985c1c437ee4571e9c"
+    },
+    {
+      "file": "deployment/test-privacy.mjs",
+      "sha256": "f95435db06ad8b761141f92e8bbad5ccd7763cf64b7ada3057fd4a185fbfd623"
+    },
+    {
+      "file": "deployment/test-runtime.mjs",
+      "sha256": "c825742e678e122119d56a63b4f7fee93a151a9c0ae6a5910087983701ae184b"
+    },
+    {
+      "file": "deployment/test.mjs",
+      "sha256": "78f535e56cc65eaa9655a08ef3b35159cc130420eb30eea848612d7855b1f494"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "b63e8a3babd0d87fae3452000c4cc43eb3a08e09de483571b88c4201bf5fa3bb"
+    },
+    {
+      "file": "package.json",
+      "sha256": "77ea6fa11d974070208fb8d118181acfa6756a21a639d530d10529699bf9095c"
+    },
+    {
+      "file": "shared/activity-extra-games.mjs",
+      "sha256": "6094039808a2c2ce912f5317152b0e224073c7911d8e66d0cb28edacc878234a"
+    },
+    {
+      "file": "shared/activity-games.mjs",
+      "sha256": "a1b50e7415dabc29af6592edf73d4dcdfd697611e93632eac3de00dc2a532f91"
+    },
+    {
+      "file": "shared/activity-router.mjs",
+      "sha256": "b25064f6ce8b94cb84006cf9ac70d89e07817b544fb1925ebbe950ef304596bd"
+    },
+    {
+      "file": "shared/activity-service.mjs",
+      "sha256": "3b8c1c522ca64c4177666b3f019c66467e415078c1e3073d237185a32f4cb7d2"
+    },
+    {
+      "file": "shared/cover-cache.mjs",
+      "sha256": "6ab79aa97bfdf55ed0b4c003d5bd20f4a53de1f460cba39c318834bb6ec00ee9"
+    },
+    {
+      "file": "shared/cover-client.mjs",
+      "sha256": "9cb9779e7952e65c93633e9dee2f184787cbe444a4769257d367400ac51b4b78"
+    },
+    {
+      "file": "shared/cover-core.mjs",
+      "sha256": "f9c849ebc74146f5204cec5b26a9f34e6c907603d13b89fa8e37724cee215c92"
+    },
+    {
+      "file": "shared/cover-delivery.mjs",
+      "sha256": "0fccfcbb12127b7e929506543d459313eccc49d2ffe7f373bc25cdd3fd061eb5"
+    },
+    {
+      "file": "shared/cover-models.mjs",
+      "sha256": "967eb6edba4df805d65d5ba6d3a660bd6cacc3ffd773b141080d37468881aace"
+    },
+    {
+      "file": "shared/cover-onebot-file.mjs",
+      "sha256": "4fd4002cce115dfe4bafd0a1ebc1593afa3e793ffefe996b1ee5d27bd43cb429"
+    },
+    {
+      "file": "shared/cover-panel.html",
+      "sha256": "a87ebd298484066ff98328c068148653b572d0a6d8fc2cf369319ab2c551007a"
+    },
+    {
+      "file": "shared/cover-separation.mjs",
+      "sha256": "1210516b4713425df07f8e9f2df01595ee56a96e4ae3b6c5c9207ca03b377f22"
+    },
+    {
+      "file": "shared/cover-separator.py",
+      "sha256": "5cbdff45f5f451cf40c9c81cf5d2380b5a1e8e89ed7b592ad53bf3640bea1e2d"
+    },
+    {
+      "file": "shared/cover-service.mjs",
+      "sha256": "30b28d0c5e9e6c3e368f45a346f0755957337db12a888cf9f0545b97d8b95e05"
+    },
+    {
+      "file": "shared/cover-worker.py",
+      "sha256": "a689044cc8ec3c78d924b5e4842464fb059aac1bae1d4f0cc4a0bd88362f55df"
+    },
+    {
+      "file": "shared/delivery-recovery.mjs",
+      "sha256": "b59811b16b176ca47124d4dfd53e884b0a9f2e57e1c3742a409961b1eece03f6"
+    },
+    {
+      "file": "shared/fleet-identity.mjs",
+      "sha256": "15fae681bb6e067dda3c847059d9c9a12fabd10805fd86aec9c2cbe734dd5262"
+    },
+    {
+      "file": "shared/gpt_sovits_v3_api.py",
+      "sha256": "655e9909055f42fde1e048d49e74d8501a4d21c96acd044aa610977f75015d92"
+    },
+    {
+      "file": "shared/group-coordinator.mjs",
+      "sha256": "43cc07777cb358d2b3b4fb09e7f06d299f8cfdf9390cdd0f961182ac700fefc0"
+    },
+    {
+      "file": "shared/sticker-lib.mjs",
+      "sha256": "cac8f67a9d1a94e5041b54b905e3fdefa47e176bb2e3ece5ecee31066dc900b1"
+    },
+    {
+      "file": "shared/voice-client.mjs",
+      "sha256": "a73445ae6f91374d5467b954849ddad874090f4f07cb147541ba0a233b4edbfd"
+    },
+    {
+      "file": "shared/voice-service.mjs",
+      "sha256": "9bd1896ecbcb1ef9331225e6c65606b33afb54b1c1dfeb977e0e15f8b3d49e27"
+    },
+    {
+      "file": "shared/voice_training.py",
+      "sha256": "b9be2633cb0e547f0f05df80d207c1f03b392b593dd938251ee0c69df6641bcc"
+    },
+    {
+      "file": "shared/voice_vtt_prepare.py",
+      "sha256": "b4bd420a2ac8adf5e35be8fa0e7a4d403d4df9ba7e4d526682be3696678d0bc2"
+    },
+    {
+      "file": "shared/wake-access.mjs",
+      "sha256": "83eac8c4a2443e05613e29623848faf91830e270dee7ba82bc64b27f11442dc5"
+    },
+    {
+      "file": "tools/cover-separation-requirements.txt",
+      "sha256": "809bb5a46b3a8f2354ba10e0e178c03f24bac8d2c36fc4bdc195c881a6a5b47e"
+    },
+    {
+      "file": "README.md",
+      "sha256": "32f2d890539a9917c2b0de3982c3e4ab40b395fd0e5b99538624c9c1de318388"
+    }
+  ]
+}

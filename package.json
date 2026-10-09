@@ -1,0 +1,19 @@
+{
+  "name": "qqbot-fleet",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.13.0"},
+  "scripts": {
+    "deploy:init": "node deployment/cli.mjs init",
+    "deploy:doctor": "node deployment/cli.mjs doctor",
+    "deploy:start": "node deployment/cli.mjs start",
+    "deploy:export": "node deployment/cli.mjs export",
+    "test:deploy": "node deployment/test.mjs",
+    "test:runtime": "node deployment/test-runtime.mjs",
+    "test:panel": "node deployment/test-panel.mjs",
+    "test:official": "node deployment/test-official.mjs",
+    "test:privacy": "node deployment/test-privacy.mjs"
+  },
+  "dependencies": {"@deepseek-ai/dsh": "0.1.5-rc.1", "js-yaml": "4.1.0"}
+}

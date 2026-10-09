@@ -1,0 +1,19 @@
+name: Deployment checks
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: for bot in bot3 bot4 bot5 bot6; do npm ci --prefix "$bot" --no-audit --no-fund; done
+      - run: npm run test:deploy
+      - run: npm run test:runtime
+      - run: npm run test:panel
+      - run: npm run test:official
+      - run: npm run test:privacy
+      - run: node deployment/cli.mjs export --out /tmp/qqbot-release

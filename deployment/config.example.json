@@ -1,0 +1,25 @@
+{
+  "mode": "local",
+  "data_dir": "./data",
+  "services": {"activities": false, "cover": false, "voice": false},
+  "providers": {
+    "main": {
+      "base_url": "https://api.deepseek.com/v1",
+      "api_key_env": "AI_API_KEY",
+      "api": "openai-completions",
+      "model": "deepseek-chat",
+      "context_window": 64000,
+      "max_tokens": 4096,
+      "input": ["text"],
+      "reasoning": "off"
+    }
+  },
+  "bots": {
+    "bot1": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": []},
+    "bot2": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": []},
+    "bot3": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": [], "qq": "", "onebot_ws": "ws://127.0.0.1:3001", "onebot_http": "http://127.0.0.1:3006", "onebot_token_env": "BOT3_ONEBOT_TOKEN"},
+    "bot4": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": [], "qq": "", "onebot_ws": "ws://127.0.0.1:3004", "onebot_http": "http://127.0.0.1:3005", "onebot_token_env": "BOT4_ONEBOT_TOKEN"},
+    "bot5": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": [], "qq": "", "onebot_ws": "ws://127.0.0.1:3002", "onebot_http": "http://127.0.0.1:3003", "onebot_token_env": "BOT5_ONEBOT_TOKEN"},
+    "bot6": {"enabled": false, "provider": "main", "persona": "default", "admin_ids": [], "group_ids": [], "qq": "", "onebot_ws": "ws://127.0.0.1:3007", "onebot_http": "http://127.0.0.1:3008", "onebot_token_env": "BOT6_ONEBOT_TOKEN"}
+  }
+}

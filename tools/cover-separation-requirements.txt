@@ -1,0 +1,6 @@
+audio-separator==0.47.0
+# CUDA 12.8 / cuDNN 9, matching the project's Torch cu128 runtime.
+# Do not install the CPU extra alongside this GPU distribution.
+onnxruntime-gpu==1.26.0
+torch==2.11.0
+torchvision==0.26.0

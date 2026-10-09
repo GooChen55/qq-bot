@@ -1,0 +1,6 @@
+{
+  "name": "qqbot-debate-hub",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/hub.js", "test": "node test/hub.test.mjs" }
+}

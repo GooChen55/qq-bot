@@ -1,0 +1,61 @@
+name: qqbot-fleet
+services:
+  fleet:
+    build:
+      context: ../..
+      dockerfile: deployment/cloud/Dockerfile
+    init: true
+    restart: unless-stopped
+    env_file: ../.env
+    environment:
+      QQBOT_DEPLOY_CONFIG: /config/config.json
+      QQBOT_DATA_DIR: /data
+    volumes:
+      # Mount the directory so atomic config replacement also works in Docker.
+      - ../:/config
+      - ../../data:/data
+    ports:
+      - "127.0.0.1:9990:9990"
+    networks: [fleet]
+  napcat-bot3:
+    image: ${NAPCAT_IMAGE:-mlikiowa/napcat-docker:latest}
+    profiles: [bot3]
+    restart: unless-stopped
+    volumes:
+      - ../../data/napcat/bot3/qq:/app/.config/QQ
+      - ../../data/napcat/bot3/config:/app/napcat/config
+      - ../../data:/data
+    ports: ["127.0.0.1:6093:6099"]
+    networks: [fleet]
+  napcat-bot4:
+    image: ${NAPCAT_IMAGE:-mlikiowa/napcat-docker:latest}
+    profiles: [bot4]
+    restart: unless-stopped
+    volumes:
+      - ../../data/napcat/bot4/qq:/app/.config/QQ
+      - ../../data/napcat/bot4/config:/app/napcat/config
+      - ../../data:/data
+    ports: ["127.0.0.1:6094:6099"]
+    networks: [fleet]
+  napcat-bot5:
+    image: ${NAPCAT_IMAGE:-mlikiowa/napcat-docker:latest}
+    profiles: [bot5]
+    restart: unless-stopped
+    volumes:
+      - ../../data/napcat/bot5/qq:/app/.config/QQ
+      - ../../data/napcat/bot5/config:/app/napcat/config
+      - ../../data:/data
+    ports: ["127.0.0.1:6095:6099"]
+    networks: [fleet]
+  napcat-bot6:
+    image: ${NAPCAT_IMAGE:-mlikiowa/napcat-docker:latest}
+    profiles: [bot6]
+    restart: unless-stopped
+    volumes:
+      - ../../data/napcat/bot6/qq:/app/.config/QQ
+      - ../../data/napcat/bot6/config:/app/napcat/config
+      - ../../data:/data
+    ports: ["127.0.0.1:6096:6099"]
+    networks: [fleet]
+networks:
+  fleet:
