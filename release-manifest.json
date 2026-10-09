@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-09T06:50:46.937Z",
+  "createdAt": "2026-10-09T07:05:35.493Z",
   "sourceOnly": true,
   "privacyChecks": {
     "knownPrivateValues": "passed",
@@ -10,7 +10,7 @@
   "files": [
     {
       "file": ".dockerignore",
-      "sha256": "9d7f83b6515a1f11975206612a88e9537aed2552b640721ece310eff432c76d4"
+      "sha256": "194d4e9cac865053b3797443343fd74185b1981c419613050034b3ca217b6fd7"
     },
     {
       "file": ".github/workflows/deployment.yml",
@@ -18,11 +18,15 @@
     },
     {
       "file": ".gitignore",
-      "sha256": "2256706e763debeb837da8cd775d4c54e9515df257e00563526a1108ff3d00c9"
+      "sha256": "984908a9a13e5e0ec4660933a557f8701b6d76846157c7dbc4956743846fd262"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "d2ef18c2c0d991766f412a9d4c3dc450672542da40a86e6072bc8c37bc31428d"
     },
     {
       "file": "PUBLIC-README.md",
-      "sha256": "32f2d890539a9917c2b0de3982c3e4ab40b395fd0e5b99538624c9c1de318388"
+      "sha256": "0d41b4d83e8595104637248daca6d44f5d083c301d188dfad30609d42d36b407"
     },
     {
       "file": "SECURITY.md",
@@ -30,7 +34,7 @@
     },
     {
       "file": "THIRD-PARTY-NOTICES.md",
-      "sha256": "b3b24e457240adf56f7f39dd76f34a7f888ed46fcd1f3b136d7b90ad0286bf28"
+      "sha256": "5d4def891705ac958f6192806c458ade8f0d9ccbc7039bb7aa7dda5528c6bae9"
     },
     {
       "file": "bot3/.npmrc",
@@ -482,7 +486,7 @@
     },
     {
       "file": "deployment/cloud/Dockerfile",
-      "sha256": "187dac219c31013a05a0de38388ad875cbc8e0a40e140eef0910d7af8d69a08c"
+      "sha256": "7fadce62d4c6df1b1d9980e934319678f601c5174fa0c27f33c1e2a8f589192c"
     },
     {
       "file": "deployment/cloud/compose.yml",
@@ -534,7 +538,7 @@
     },
     {
       "file": "deployment/public-files.json",
-      "sha256": "83f5155431a1e38cec50b6f06475a4a0df15e41bfd10a85541938fdff9c47bec"
+      "sha256": "c13960e5fa5ef975ef8df3f5013888c83abed53bb52ccb0d4ee64339f1dc84f6"
     },
     {
       "file": "deployment/runtime.mjs",
@@ -566,7 +570,7 @@
     },
     {
       "file": "deployment/test-privacy.mjs",
-      "sha256": "64366e8c6afe89637f53db56d0d7f6eb5fd58b3388e2369f240b1955fdfe88e0"
+      "sha256": "896470f7cd713bd141ba78f7626c9513cd9c9a3e47fdeb112791662b983cfee2"
     },
     {
       "file": "deployment/test-runtime.mjs",
@@ -690,7 +694,7 @@
     },
     {
       "file": "README.md",
-      "sha256": "32f2d890539a9917c2b0de3982c3e4ab40b395fd0e5b99538624c9c1de318388"
+      "sha256": "0d41b4d83e8595104637248daca6d44f5d083c301d188dfad30609d42d36b407"
     }
   ]
 }

@@ -24,6 +24,7 @@ try{
  fs.writeFileSync(path.join(inventory,'leak.js'),'const leaked='+JSON.stringify({account,key,voiceId,personaText})+';');
  const issues=scanSource(['leak.js'],inventory,{privateValues:values});assert(issues.some(i=>i.rule==='private-account-or-id'));assert(issues.some(i=>i.rule==='private-credential'));assert(issues.some(i=>i.rule==='private-persona-text'));assert(!JSON.stringify(issues).includes(key));
  assert.deepEqual(scanSource(sourceFiles()),[]);
+ assert(sourceFiles().includes('LICENSE'));assert(fs.readFileSync(path.join(PROJECT_ROOT,'LICENSE'),'utf8').includes('第三方'));assert(fs.readFileSync(path.join(PROJECT_ROOT,'PUBLIC-README.md'),'utf8').includes('(LICENSE)'));
  for(const id of ['bot3','bot4','bot5','bot6']){assert(sourceFiles().includes(id+'/.npmrc'));assert.equal(fs.readFileSync(path.join(PROJECT_ROOT,id,'.npmrc'),'utf8').trim(),'legacy-peer-deps=true');assert(!readJSON(path.join(PROJECT_ROOT,id,'package.json')).dependencies?.['qqbot-fleet']);assert(!readJSON(path.join(PROJECT_ROOT,id,'package-lock.json')).packages?.['node_modules/qqbot-fleet']);}
  const publishFixture=path.join(temp,'publish');fs.mkdirSync(path.join(publishFixture,'deployment'),{recursive:true});
  fs.writeFileSync(path.join(publishFixture,'safe.mjs'),'export const ready=true;');fs.writeFileSync(path.join(publishFixture,'unreviewed.mjs'),'not publishable');

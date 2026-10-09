@@ -222,3 +222,4 @@ deployment/templates/**
 !bot4/.npmrc
 !bot5/.npmrc
 !bot6/.npmrc
+!LICENSE

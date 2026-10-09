@@ -243,6 +243,7 @@
 !/bot4/.npmrc
 !/bot5/.npmrc
 !/bot6/.npmrc
+!/LICENSE
 
 # README is generated from the reviewed public document in this release only.
 !/README.md

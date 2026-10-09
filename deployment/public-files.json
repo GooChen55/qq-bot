@@ -2,6 +2,7 @@
   ".dockerignore",
   ".github/workflows/deployment.yml",
   ".gitignore",
+  "LICENSE",
   "PUBLIC-README.md",
   "SECURITY.md",
   "THIRD-PARTY-NOTICES.md",
